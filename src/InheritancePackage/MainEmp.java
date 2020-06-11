@@ -1,12 +1,12 @@
 package InheritancePackage;
 
-public class Emp {
+public class MainEmp {
 
     int id;
     String name;
     Address address;
 
-    public Emp(int id, String name,Address address) {
+    public MainEmp(int id, String name, Address address) {
         this.id = id;
         this.name = name;
         this.address=address;
@@ -21,8 +21,8 @@ public class Emp {
         Address address1=new Address("gzb","UP","india");
         Address address2=new Address("gno","UP","india");
 
-        Emp e=new Emp(111,"varun",address1);
-        Emp e2=new Emp(112,"arun",address2);
+        MainEmp e=new MainEmp(111,"varun",address1);
+        MainEmp e2=new MainEmp(112,"arun",address2);
 
         e.display();
         e2.display();
